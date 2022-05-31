@@ -4,8 +4,7 @@ Setup functions for HTTP server.
 from typing import Callable
 
 from aiohttp import web
-from {{cookiecutter.app_name}}.infrastructure.server.http.handlers.health import \
-    health
+from {{cookiecutter.app_name}}.infrastructure.server.http.handlers.health import health
 
 HEALTH = "/health"
 
