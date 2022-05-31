@@ -1,0 +1,4 @@
+{
+  "host": "{{cookiecutter.host}}",
+  "port": "{{cookiecutter.port}}"
+}

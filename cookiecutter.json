@@ -1,4 +1,7 @@
 {
-    "directory_name": "project",
-    "file_name": "main"
+    "app_name": "project",
+    "project_short_description": "",
+    "author_name": "",
+    "host": "localhost",
+    "port": "8080"
 }
