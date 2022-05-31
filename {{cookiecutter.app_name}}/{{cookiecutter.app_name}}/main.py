@@ -2,12 +2,12 @@
 Setup app and start server.
 """
 import asyncio
-import click
 import json
 import signal
 import sys
 from typing import Mapping
 
+import click
 from aiohttp import ClientSession, http, web
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from {{cookiecutter.app_name}}.infrastructure.server import http
