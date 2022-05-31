@@ -1,11 +1,11 @@
 """
 Setup functions for HTTP server.
 """
-from aiohttp import web
 from typing import Callable
 
-from {{cookiecutter.app_name}}.infrastructure.server.http.handlers.health import health
-
+from aiohttp import web
+from {{cookiecutter.app_name}}.infrastructure.server.http.handlers.health import \
+    health
 
 HEALTH = "/health"
 

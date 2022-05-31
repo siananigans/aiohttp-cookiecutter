@@ -1,12 +1,11 @@
-import sys
-import json
-import click
-import signal
-
-from aiohttp import web, http, ClientSession
 import asyncio
+import json
+import signal
+import sys
 from typing import Mapping
 
+import click
+from aiohttp import ClientSession, http, web
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from {{cookiecutter.app_name}}.infrastructure.server import http
 
