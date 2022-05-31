@@ -1,3 +1,6 @@
+"""
+Setup app and start server.
+"""
 import asyncio
 import click
 import json

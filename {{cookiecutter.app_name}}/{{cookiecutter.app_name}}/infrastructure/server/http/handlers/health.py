@@ -1,3 +1,6 @@
+"""
+Simple endpoint to expose server health
+"""
 from aiohttp import web
 
 
